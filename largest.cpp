@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     
-    double n1, n2, n3;
+    int n1, n2, n3;
 
     cout << "Enter three numbers: ";
     cin >> n1 >> n2 >> n3;
@@ -13,7 +13,7 @@ int main() {
         cout << "Largest number: " << n1;
 
     
-    else if(n2 >= n1 && n2 >= n3)
+    if(n2 >= n1 && n2 >= n3)
         cout << "Largest number: " << n2;
     
     
