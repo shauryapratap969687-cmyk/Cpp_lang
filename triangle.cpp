@@ -1,6 +1,6 @@
 #include <iostream> 
 using namespace std;
-void main() {
+int main() {
     int i, j, rows;  
 
     cout<<"Input number of rows : ";
